@@ -90,3 +90,33 @@ img:hover {
     margin-bottom: 0.95em;
   }
 }
+@media (max-width: 576px) {
+  .container {
+    max-width: 450px;
+  }
+  img {
+    max-width: 450px;
+  }
+  .description {
+    width: 425px;
+    font-size: 1em;
+  }
+}
+@media (max-width: 470px) {
+  .container {
+    max-width: 375px;
+  }
+  img {
+    max-width: 375px;
+  }
+  .description {
+    width: 350px;
+    font-size: 0.9em;
+    margin-bottom: 1.05em;
+  }
+}
+@media (max-width: 370px) {
+  .description {
+    display: none;
+  }
+}
