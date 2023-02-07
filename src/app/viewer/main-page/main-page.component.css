@@ -1,0 +1,92 @@
+button {
+  width: 100%;
+  color: rgb(33, 33, 33);
+}
+
+button:hover {
+  background-color: rgb(33, 33, 33);
+}
+
+img {
+  max-width: 100%;
+  margin-bottom: 1em;
+  border-radius: 10px;
+  height: auto;
+  display: block;
+}
+
+img::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 70%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+}
+
+img:hover {
+  cursor: pointer;
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.745);
+}
+
+.imageDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.description {
+  position: absolute;
+  width: 312px;
+  float: top;
+  font-size: 0.9em;
+  z-index: 1;
+  text-align: left;
+  color: #ffffff;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.775));
+  margin-bottom: 1.11em;
+  padding: 1em 1em 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  pointer-events: none;
+}
+.description h1 {
+  font-size: 1.2em;
+}
+.contenedor-img {
+  columns: 5 300px;
+}
+
+/* Responsive */
+@media (max-width: 1400px) {
+  .description {
+    width: 362px;
+  }
+}
+@media (max-width: 1200px) {
+  .description {
+    width: 302px;
+  }
+}
+@media (max-width: 992px) {
+  .description {
+    width: 340px;
+  }
+}
+@media (max-width: 768px) {
+  .contenedor-img {
+    columns: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  img {
+    width: 100%;
+  }
+  .description {
+    width: 518px;
+    font-size: 1.1em;
+    margin-bottom: 0.95em;
+  }
+}
