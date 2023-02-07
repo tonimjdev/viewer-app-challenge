@@ -29,11 +29,11 @@ Para levantar el proyecto, clonar el repositorio y desde la terminal ejecutar:
 ```shell
     ng serve -o
 ```
-Las claves del environment solicitarlas al autor.
 
 ## Despliegue aplicación
 
 Pueden utilizar la aplicación ya desplegada en el siguiente enlace:
+https://viewer-app-challenge.vercel.app/
 
 ## Contact info
 
@@ -42,4 +42,3 @@ Contacto: tonimdev@gmail.com
 
 (C)2023 Toni Machado
 www.tonimachado.com
-
