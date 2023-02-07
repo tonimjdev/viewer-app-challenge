@@ -12,7 +12,7 @@ El problema a solucionar ha sido conectar a la Api que nos ha devuelto una colec
 
 ## Solución adoptada
 
-La aplicación se ha desarrollado con Angular. La conexión a la Api se ha realizado a traves de HttpClient, basado en Observables, que ha conectado con la Api y ha recopilado la información devuelta. Para el diseño se ha utilizado Angular Material, Bootstrap, CSS y Google Fonts. Las animaciones (fade-in al cargar fotos) se han realizado con la libreria https://animate.style/
+La aplicación se ha desarrollado con Angular 15. La conexión a la Api se ha realizado a traves de HttpClient, basado en Observables, que ha conectado con la Api y ha recopilado la información devuelta. Para el diseño se ha utilizado Angular Material, Bootstrap 5.3, CSS3 y Google Fonts. Las animaciones (fade-in al cargar fotos) se han realizado con la libreria https://animate.style/ (Animate.css 4.1)
 
 ## Estructura de archivos 
 
@@ -25,7 +25,12 @@ https://www.codefactor.io/repository/github/tonimjdev/viewer-app-challenge
 
 ## Installation
 
-Para levantar el proyecto, clonar el repositorio y desde la terminal ejecutar:
+Para levantar el proyecto, es necesario tener Angular Cli instalado de manera global:
+```shell
+    npm install -g @angular/cli
+```
+
+Después clonar el repositorio de Github y levantarlo desde la terminal con el siguiente comando:
 ```shell
     ng serve -o
 ```
@@ -37,8 +42,8 @@ https://viewer-app-challenge.vercel.app/
 
 ## Contact info
 
-La aplicación ha sido programada por Toni Machado.
+La aplicación ha sido programada por Toni Machado.<br>
 Contacto: tonimdev@gmail.com 
-
+<br>
 (C)2023 Toni Machado
 www.tonimachado.com
